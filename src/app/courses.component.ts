@@ -7,7 +7,7 @@ import { Component} from '@angular/core'
                      // < div id="courses">  ".courses"
                      // < class id="courses">  "#courses" 
 
-        template: '<h3>There will be 3 courses</h3>'
+        template: '<h3>There will be 6 courses in each branch</h3>'
     }
 )
 
