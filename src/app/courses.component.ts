@@ -8,7 +8,14 @@ import { Component} from '@angular/core'
                      // < div id="courses">  ".courses"
                      // < class id="courses">  "#courses" 
 
-        template: '{{ "Title: "+title }}<h3>There will be 6 courses in each branch</h3>'
+        template: `
+                <h2>{{ title }}</h2>
+                <ul>
+                    <li *ngFor= " let course of courses">
+                    {{ course }}
+                    </li>
+                </ul>    
+                `
     }
 )
 
