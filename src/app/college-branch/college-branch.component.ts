@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
               `
                 <ul>
                   <li *ngFor= "let branch of branches">
-                    { {branches} }
+                    {{branches}}
                   </li>
                 </ul>
               `
