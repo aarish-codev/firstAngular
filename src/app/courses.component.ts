@@ -14,7 +14,8 @@ import { Component} from '@angular/core'
                     <li *ngFor= " let course of courses">
                     {{ course }}
                     </li>
-                </ul>    
+                </ul> 
+                <button class="btn btn-primary">Save</button>
                 `
     }
 )
